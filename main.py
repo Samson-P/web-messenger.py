@@ -4,6 +4,20 @@ import asyncio
 
 all_clients = []
 
+class user:
+	passwd = ''
+	login = ''
+	signin = False
+
+
+def login_forwarder(response):
+	if response['login'] == andrew.login and response['passwd'] == andrew.passwd:
+		andrew.signin = True
+		print("New client is Andrew! Signin succsess!")
+		return True
+	print("Unsuccessful registration attempt: ", response['login'])
+	return False
+
 
 async def send_message(message: str):
 	for client in all_clients:

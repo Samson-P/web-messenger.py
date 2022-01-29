@@ -1,0 +1,49 @@
+.chats {
+	width: 30%;
+	float: left;
+	margin-left: 25px;
+}
+
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	width: 100%;
+}
+
+.flex-item {
+	width: 100%;
+	height: 60px;
+	background-color: #87ceeb;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+.header-name {
+	margin-left: 30px;
+}
+
+.chat {
+	width: 60%;
+	float: right;
+	margin-right: 25px;
+}
+
+.messenger {
+	display: block;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.message {
+	width: 70%
+}
+
+.send_message {
+	width: 25%
+}
+
+

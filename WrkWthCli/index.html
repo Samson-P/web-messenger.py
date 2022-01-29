@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>web-messenger.py</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+	<div class="content">
+		<h1>web-messenger.py/auth</h1>
+		<div class="auth-form">
+			<img class="logo-image" src="img/signin.jpg">
+			<div class="auth-active">
+				<p><input type="text" name="email" value="" placeholder="Электронная почта"></p>
+				<p><input type="password" name="password" placeholder="Пароль"></p>
+				<div class="wrap" title="">
+					<input class="box" type="button" name="signin" value="Войти">
+					<input class="box" type="button" name="logout" value="Покинуть">
+				</div>
+			</div>
+		</div>
+		
+		<div class="messenger">
+			<div name="client-identification" class="id-client">
+			
+			</div>
+			<p>Напишите и отправьте тестовое сообщение:</p>
+			<div class="wrap" title="">
+				<input class="box" type="text" name="message" placeholder="Начните писать...">
+				<input class="box" type="button" name="send" value="Отправить">
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/hmac-sha256.js"></script>
+	<script src="https://kjur.github.io/jsrsasign/jsrsasign-latest-all-min.js"></script>
+	<script src="js/auth.js" type="application/javascript"></script>
+</body>
+</html>

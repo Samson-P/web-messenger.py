@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+	<title>web-messenger</title>
+	<meta charset="UTF-8">
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/pricing/">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	
+	<link rel="stylesheet" href="css/menu.css" type="text/css">
+	<link rel="stylesheet" href="css/chat.css" type="text/css">
+	<link rel="stylesheet" href="css/plans.css" type="text/css">
+	<link rel="stylesheet" href="css/signin.css" type="text/css">
+	<link rel="stylesheet" href="css/chat.massages.css" type="text/css">
+	<link rel="shortcut icon" type="image/png" href="img/web_msng.py.ico"/>
+	
+	
+</head>
+<body>
+	
+	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+		<div class="hamburger-menu">
+			<input id="menu__toggle" type="checkbox" />
+			<label class="menu__btn" for="menu__toggle">
+				<span></span>
+			</label>
+			<ul class="menu__box">
+				<li><a class="menu__item" href="https://github.com/Samson-P/web-messenger.py" target="_blank">Проект</a></li>
+				<li><a class="menu__item" href="#">Команда</a></li>
+				<li><a class="menu__item" href="#">Контакты</a></li>
+			</ul>
+		</div>
+		
+		<h5 class="header-name my-0 mr-md-auto font-weight-normal">Web messenger.py</h5>
+		<nav class="my-2 my-md-0 mr-md-3">
+			<a class="p-2 text-dark" href="/documentation">Support</a>
+			<a class="p-2 text-dark" href="/settings">Registration</a>
+			<a class="p-2 text-dark" href="/settings">Settings</a>
+		</nav>
+		<a href="#signin" class="btn btn-outline-primary">Sign in</a>
+	</div>
+	
+	<! Регистрация/Вход НАЧ>
+	
+	<a href="#x" class="overlay" id="signin"></a>
+	<div class="reg-plan">
+		<img src="img/signin.jpg">
+		<form method="post">
+			<p><input type="text" placeholder="login" name="uname" required></p>
+			<p><input id="userPassword" placeholder="password" type="password"></p>
+			<p><button href="/" type="submit">Sign in</button></p>
+			
+		</form>
+		<a class="close" title="Закрыть" href="#close"></a>
+	</div>
+	
+	<! Регистрация/Вход КОН>
+	
+	
+	
+	
+	
+	
+	<div class="messenger">
+		<div class="chats">
+			<div class="container darker">
+				<img src="img/avatars/id-1.jpg" alt="avatar_id1" class="left">
+				<p><a href="#">Захар</a></p>
+				<p>Последнее сообщение</p>
+				<span class="time-left">12:35</span>
+			</div>
+			<div class="container">
+				<img src="img/avatars/id-3.jpg" alt="avatar_id1" class="left">
+				<p><a href="#">Даня</a></p>
+				<p>Последнее сообщение</p>
+				<span class="time-left">10:04</span>
+			</div>
+			<div class="container">
+				<img src="img/avatars/id-4.jpg" alt="avatar_id1" class="left">
+				<p><a href="#">Дени</a></p>
+				<p>Последнее сообщение</p>
+				<span class="time-left">02:16</span>
+			</div>
+			<div class="container">
+				<img src="img/avatars/id-5.jpg" alt="avatar_id1" class="left">
+				<p><a href="#">Алена</a></p>
+				<p>Последнее сообщение</p>
+				<span class="time-left">вчера 14:47</span>
+			</div>
+			<div class="container"></div>
+			<div class="container"></div>
+			<div class="container"></div>
+			<div class="container"></div>
+			<div class="container"></div>
+			<div class="container"></div>
+			<div class="container"></div>
+			<div class="container"></div>
+			<div class="container"></div>
+			<div class="container"></div>
+			<div class="container"></div>
+			<div class="container"></div>
+			<div class="container"></div>
+			<div class="container"></div>
+			<div class="container"></div>
+		</div>
+		
+		<div class="chat">
+			<div class="messages">
+				<div class="container"></div>
+				<div class="container"></div>
+				<div class="container"></div>
+				<div class="container"></div>
+				<div class="container"></div>
+				
+				<div class="container companion">
+					<img src="img/avatars/id-1.jpg" alt="avatar_id1" class="right">
+					<p><a href="#">Захар</a></p>
+					<p>Привет</p>
+					<span class="time-left">12:32</span>
+				</div>
+				<div class="container darker">
+					<img src="img/avatars/id-2.jpg" alt="avatar_id1" class="right">
+					<p><a href="#">Самсон</a></p>
+					<p>Здарова</p>
+					<span class="time-left">12:32</span>
+				</div>
+				<div class="container companion">
+					<img src="img/avatars/id-1.jpg" alt="avatar_id1" class="right">
+					<p><a href="#">Захар</a></p>
+					<p>Как там бот?</p>
+					<span class="time-left">12:34</span>
+				</div>
+				<div class="container darker">
+					<img src="img/avatars/id-2.jpg" alt="avatar_id1" class="right">
+					<p><a href="#">Самсон</a></p>
+					<p>Вот сижу, работаю над ним</p>
+					<span class="time-left">12:34</span>
+				</div>
+				<div class="container companion">
+					<img src="img/avatars/id-1.jpg" alt="avatar_id1" class="right">
+					<p><a href="#">Захар</a></p>
+					<p>Кайф, спс Самсик ;)</p>
+					<span class="time-left">12:35</span>
+				</div>
+			</div>
+			
+			<div>
+			<input class="message" type="text" id="tupe mes" name="name" placeholder="Начните писать..." maxlength="1024" size="60">
+			<input class="send_message" type="button" value="Отправить">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
